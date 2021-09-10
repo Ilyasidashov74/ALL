@@ -1,0 +1,24 @@
+https://autoprefixer.github.io/ru/  Для кроусбраузерности
+
+https://yandex.ru/dev/maps/jsapi/doc/2.1/dg/concepts/geoobjects.html Яндекс карта
+https://yandex.ru/map-constructor/location-tool/ для координат
+
+https://jqueryui.com/accordion/ Аккардион
+
+https://github.com/Grsmto/simplebar Кастомный скролл
+
+https://github.com/jshjohnson/Choices Кастомный селект Подрубать до хедера choices.min.css  и вконце боди  choices.min.js
+
+
+https://github.com/RobinHerbots/Inputmask Плагин для маскирования
+
+
+https://github.com/horprogs/Just-validate Для валидации
+https://bennettfeely.com/clippy/ ля срезания углов у болоков и картинок
+
+
+
+https://codepen.io/winampi/pen/rNeQgYP флажок чекбокса
+
+
+https://webtort.ru/%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D0%BC-%D0%B1%D1%83%D1%80%D0%B3%D0%B5%D1%80-%D0%BC%D0%B5%D0%BD%D1%8E-%D0%BD%D0%B0-css-html-%D0%B8-jquery/  БУРГЕР

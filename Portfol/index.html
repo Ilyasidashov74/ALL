@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <title>Belgar</title>
+</head>
+<body>
+<div class="preloader">
+    <div class="status"></div>
+</div>
+<header data-aos="fade-right">
+    <nav>
+        <div class="nav-wrapper" >
+            <a href="#" class="brand-logo icon">Belgår Dömd</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#works">My works</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#equipmet">Equipmet</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div class="hero">
+            <div class="hero__title-container" data-aos="fade-up" data-aos-delay="200">
+                <h1 class="hero__title">Welcome</h1>
+                <p class="hero__text">My name is <span>Belgår Dömd</span> and I am a professional photographer</p>
+                <button class="hero__btn" id="popup__toggle">Contact me</button>
+            </div>
+        <div class="popup__overlay" id="overlay">
+            <div class="popup" data-aos="fade-up">
+                <a href="#" class="popup__close" id="overlay__close">X</a>
+                <form class="form">
+                    <input type="text" name="mfbName" placeholder="Имя:" required/>
+                    <input type="text" name="mfbMail" placeholder="Email:" required/>
+                    <input type="text" name="mfbPhone" placeholder="Телефон:" required/>
+                    <input type="submit" value="Отправить" />
+                </form>
+        </div>
+
+
+    </div>
+    </div>
+    <main class="main-content">
+    <section class="gallery">
+        <ul class="gallery__list" id="works">
+            <li class="gallery__item"><a href="" class="gallery__link"><img src="image/4.jpg">
+                <div>
+                    <img src="zoom.png" alt=""/>
+                </div>
+            </a></li>
+            <li class="gallery__item" data-aos="fade-up"><a href="" class="gallery__link"><img src="image/5.jpg"></a>
+            </li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/6.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/7.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/8.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/9.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/10.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/11.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/12.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="20"><a href="#" class="gallery__link"><img
+                    src="image/13.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/14.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/15.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/16.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/17.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/18.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/19.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="100"><a href="#" class="gallery__link"><img
+                    src="image/20.jpg"></a></li>
+            <li class="gallery__item" data-aos="fade-up" data-aos-delay="200"><a href="#" class="gallery__link"><img
+                    src="image/21.jpg"></a></li>
+        </ul>
+    </section>
+    <hr>
+    <section class="about" id="about">
+        <div class="foto">
+        <div class="foto__item foto__adaptive" data-aos="fade-up">
+            <img class="mobile-block" src="image/dimas.jpg">
+            <div class="text-container top">
+            <h1 class="text-title"> About me</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi accusantium voluptatum saepe. Natus nihil, facere corporis numquam, architecto dolorum.</p>
+            </div>
+        </div>
+        <div class="foto__item-left foto__adaptive" data-aos="fade-up" data-aos-delay="100">
+            <img src="image/dimas2.jpg">
+            <p class="text left top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi accusantium voluptatum saepe. Natus nihil, facere corporis numquam, architecto dolorum.
+            </p>
+        </div>
+        </div>
+        <div class="foto__item foto__adaptive space" data-aos="fade-up">
+            <img src="image/dimas3.jpg">
+            <p class="text righ top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi accusantium voluptatum saepe. Natus nihil, facere corporis numquam, architecto dolorum.</p>
+        </div>
+    </section>
+        <hr>
+        <section class="blog">
+            <h2 class="text-title" data-aos="fade-up">Blog</h2>
+            <div class="blog__flex">
+                <div data-aos="fade-left blog__content" > <img class="blog__content-img" src="image/21.jpg">
+                <p class="text righ top ">Lorem consectetur adipisicing elit. Tempore animi
+                    Lorem consectetur adipisicing elit. Tempore animi
+                    Lorem consectetur adipisicing elit. Tempore animi</p>
+                </div>
+                <div class="blog__space blog__content" data-aos="fade-right"><img class="blog__content-img" src="image/22.jpg">
+                    <p class="text righ top">Lorem consectetur adipisicing elit. Tempore animi
+                        Lorem consectetur adipisicing elit. Tempore animi
+                        Lorem consectetur adipisicing elit. Tempore animi</p>
+                </div>
+                <div data-aos="fade-left blog__content"><img class="blog__content-img" src="image/23.jpg">
+                    <p class="text righ top">Lorem consectetur adipisicing elit. Tempore animi
+                        Lorem consectetur adipisicing elit. Tempore animi
+                        Lorem consectetur adipisicing elit. Tempore animi</p>
+                </div>
+            </div>
+        </section>
+        <section class="rentals" id="equipmet">
+            <h2 class="rentals__title">Equipment Rentaals</h2>
+<div class="rentals__flex">
+    <div class="rentals__card">
+        <img src="//res2.weblium.site/res/5c5bf7efc7d3e30023c3581c/5c5c0a22c7d3e30023c37b82_optimized_1920_c1342x896-258x176">
+        <p>Canon EOS 6D</p>
+    </div>
+    <div class="rentals__card">
+        <img src=//res2.weblium.site/res/5addd31784fc10002575c16c/5ade049f84fc10002576e82b_optimized_1920_c1271x814-494x210.jpeg>
+        <p>Cannon EF 35mm</p>
+    </div>
+    <div class="rentals__card">
+        <img src=//res2.weblium.site/res/5c5bf7efc7d3e30023c3581c/5c5c0a69c7d3e30023c37e2d_optimized_1396>
+        <p>Sony alfa 700</p>
+    </div>
+    <div class="rentals__card">
+        <img src=//res2.weblium.site/res/5b51f202837aae002303b5b2/5b92962e13f37500259ffa80_optimized_1920_c1170x779-375x297>
+        <p>Nikon coolpix 700</p>
+    </div>
+</div>
+        </section>
+</main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">Lorem consectetur adipisicing elit. Tempore animi</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">My social networks</h5>
+                    <ul class="footer__list">
+                        <li><a class="grey-text text-lighten-3 " href="#!"><img class="social__link" src="image/vk.png"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><img class="social__link" src="image/instagram.png"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><img class="social__link" src="image/telega.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 1000);}
+</script>
+    <script>
+        $(".form").submit(function() {
+            var str = $(this).serialize();
+            $.ajax({
+                type: "POST",
+                url: "contact.php",
+                data: str,
+                success: function(msg) {
+                    if(msg == 'ok') {
+                        alert('Письмо отправлено');
+                    }
+                    else {
+                        alert('Ошибка! Возможно вы неправильно заполнили поля.');
+                    }
+                }
+            });
+            return false;
+        });
+    </script>
+    <script>
+      document.getElementById('popup__toggle').onclick = function () {
+          document.getElementById('overlay').classList.add('overlay__open')
+      }
+      document.getElementById('overlay__close').onclick = function () {
+          document.getElementById('overlay').classList.remove('overlay__open')
+      }
+
+
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>

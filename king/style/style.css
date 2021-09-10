@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+.nav-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.home {
+    position: relative;
+    background-image: url('../img/main.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+.home:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.inner {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.home__cards {
+    margin-top: 25%;
+}
+.home__cards-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home__card {
+    padding: 15px;
+    width: 355px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 50;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.home__card p {
+    color: #495057;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home__card span {
+color: #495057;
+    font-size: 18px;
+    line-height: 26px;
+}
+.hero {
+    padding-top: 5%;
+}
+.hero__flex {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hero__card {
+    width: 255px;
+    height: 250px;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 180px;
+    margin-top: 20px;
+}
+.hero__card a {
+    border: 1px solid red;
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+.card-one {
+    background-image: url(../img/gant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-two {
+    background-image: url(../img/tren.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-three {
+    background-image: url(../img/girya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-four {
+    background-image: url(../img/cross.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__card-big {
+    width: 48%;
+    height: 350px;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 280px;
+    margin-top: 20px;
+}
+.hero__card-big a {
+    border: 1px solid red;
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+.big-one{
+    background-image: url(../img/street.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big-two {
+    background-image: url(../img/gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about {
+    padding-top: 5%;
+}
+.about__pick{
+    background-image: url('../img/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 2.5%;
+}
+.about__descr {
+    padding: 3%;
+    float: right;
+    width: 48%;
+    display: block
+}
+.about__descr p {
+    ont-size: 18px;
+    font-style: italic;
+    color: #fff;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+.about__descr-fio {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    line-height: 20px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255,255,255,.25);
+}
+.complect {
+    padding-top: 3%;
+}
+.responsive {
+    margin-top: 2.5%;
+}
+.responsive a {
+    font-size: 18px;
+    color: red;
+    transition: 0.3s;
+}
+.responsive a:hover {
+    color: black;
+    font-size: 20px;
+}
+.slick-slide {
+    object-fit: cover;
+}
+.slick-arrow {
+    display: none !important;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots {
+    list-style: none;
+}
+.slick-dots button {
+    font-size: 0px;
+    padding-top: 0px;
+    border-radius: 3.5px;
+    height: 7px;
+    width: 7px;
+    background: rgba(73, 80, 87, 0.4);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-right: 3px;
+}
+.slick-dots li.slick-active button {
+    width: 20px;
+    background: rgba(73, 80, 87, 0.6);
+}
+.works {
+    padding-top: 2%;
+}
+.works__flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+.works__cards {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    margin-top: 15px;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 15%);
+    margin-right: 15px;
+
+}
+.works__back {
+    background-image: url('../img/neptun.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 13.5em;
+}
+
+.works__item-title {
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+.works__item-place {
+    margin: 0.25em 0 1.6666em;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.75rem;
+    line-height: 1;
+}
+.works__item-text {
+    margin: 0 0 1.4285em;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.875rem;
+    height: 6.5em;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about__pick {
+        background-position: left top;
+        background-size: 180%;
+    }
+    .about__descr {
+        padding: 5%;
+        float: none;
+        width: 100%;
+        display: block;
+        margin-top: 400px;
+        background: #B2BACA;
+    }
+}
+@media only screen and (max-width: 535px) {
+    .about__descr {
+        margin-top: 300px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .about__descr {
+        margin-top: 200px;
+    }
+}
